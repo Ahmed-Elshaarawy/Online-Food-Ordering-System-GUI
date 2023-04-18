@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/pictures">
+        <file>cart.png</file>
+        <file>user.png</file>
+        <file>Chicken burger.jpg</file>
+        <file>Chicken Curry.jpg</file>
+        <file>Chicken Wings.jpg</file>
+        <file>Fried Chicken and White Rice.jpg</file>
+        <file>Lamb Chops.jpg</file>
+        <file>Meat burger.jpg</file>
+        <file>Steak.jpg</file>
+        <file>Tacos.jpg</file>
+        <file>Barbecue Ribs.jpg</file>
+        <file>Chicken Adobo.jpg</file>
+        <file>Chicken Satay.jpg</file>
+        <file>Chicken Shawarma.jpg</file>
+        <file>Chicken Teriyaki.jpg</file>
+        <file>Meat Shawerma.jpg</file>
+        <file>Meatloaf.jpg</file>
+        <file>Roast Beef.jpg</file>
+    </qresource>
+</RCC>

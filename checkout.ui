@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CheckOut</class>
+ <widget class="QDialog" name="CheckOut">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>486</width>
+    <height>818</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(216, 232, 217);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 26pt &quot;Helvica&quot;;
+color:black;</string>
+   </property>
+   <property name="text">
+    <string>Cart</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>565</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 19pt &quot;Helvica&quot;;
+color:black;
+
+</string>
+   </property>
+   <property name="text">
+    <string>TOTAL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="total_label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>565</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Helvica&quot;;
+color:black;
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>595</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 19pt &quot;Helvica&quot;;
+color:black;
+</string>
+   </property>
+   <property name="text">
+    <string>BALANCE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="balance_label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>595</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Helvica&quot;;
+color:black;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="items_in_cart">
+   <property name="geometry">
+    <rect>
+     <x>19</x>
+     <y>60</y>
+     <width>441</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+border:0px;</string>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="checkout_scrollarea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>441</width>
+      <height>501</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="recharge_button">
+   <property name="geometry">
+    <rect>
+     <x>332</x>
+     <y>650</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>ClosedHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+border-radius:6px;
+border:1px solid black;
+color:black;
+font: 700 15pt &quot;helvica&quot;;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Recharge</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="place_order_button">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>750</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>ClosedHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black;
+border-radius:6px;
+font: 700 16pt &quot;helvica&quot;;
+background-color:white;
+border:1px solid black;</string>
+   </property>
+   <property name="text">
+    <string>Place Order</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="recharge_amount">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>650</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black;
+border:0px;
+font: 14pt &quot;Arial&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>645</y>
+     <width>441</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(245, 245, 245)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="message_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>705</y>
+     <width>441</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Helvica&quot;;
+color:black;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>recharge_amount</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>total_label</zorder>
+  <zorder>label_4</zorder>
+  <zorder>balance_label</zorder>
+  <zorder>items_in_cart</zorder>
+  <zorder>recharge_button</zorder>
+  <zorder>place_order_button</zorder>
+  <zorder>message_label</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

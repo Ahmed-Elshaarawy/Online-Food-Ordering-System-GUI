@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SignIn</class>
+ <widget class="QMainWindow" name="SignIn">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>486</width>
+    <height>795</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Signin</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>541</width>
+      <height>801</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(219, 209, 226);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="message_label">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>470</y>
+       <width>241</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 15pt &quot;Helvica&quot;;
+color:black;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="username">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>340</y>
+       <width>241</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font:15pt &quot;helvica&quot;;
+background-color: white;
+border:1px solid black;
+</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Passwordlabel">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>390</y>
+       <width>131</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 17pt &quot;helvica&quot;;
+color:black;</string>
+     </property>
+     <property name="text">
+      <string>Password</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="password">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>430</y>
+       <width>241</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font:15pt &quot;helvica&quot;;
+background-color: white;
+border:1px solid black;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Namelabel">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>290</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 17pt &quot;helvica&quot;;
+color:black;</string>
+     </property>
+     <property name="text">
+      <string>Name</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Balancelabel">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>600</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 16pt &quot;Helvica&quot;;
+color:black;
+</string>
+     </property>
+     <property name="text">
+      <string>BALANCE</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="balance_label">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>600</y>
+       <width>151</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 16pt &quot;Helvica&quot;;
+color:black;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="SigninButton">
+     <property name="geometry">
+      <rect>
+       <x>156</x>
+       <y>500</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>ClosedHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:black;
+border-radius:5px;
+font: 700 14pt &quot;helvica&quot;;
+background-color:white;
+border:1px solid black;</string>
+     </property>
+     <property name="text">
+      <string>Signin</string>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="icon">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>150</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>message_label</zorder>
+    <zorder>username</zorder>
+    <zorder>Passwordlabel</zorder>
+    <zorder>password</zorder>
+    <zorder>Namelabel</zorder>
+    <zorder>Balancelabel</zorder>
+    <zorder>SigninButton</zorder>
+    <zorder>icon</zorder>
+    <zorder>balance_label</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
