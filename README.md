@@ -1,5 +1,4 @@
 # Online-Food-Ordering-System-GUI
-GUI for online food ordering system c++ using QT platform
 (![signin screen](https://user-images.githubusercontent.com/100274164/233055127-9837d6e5-eab4-49af-8552-de174fcf758f.jpeg)
 
 ![homepage](https://user-images.githubusercontent.com/100274164/233055032-90ee126e-634a-43fd-b3e8-c405cc03a9c8.jpeg)
